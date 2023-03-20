@@ -1,7 +1,7 @@
-Exercises
-Exercises: Level 1
-const constants = [2.72, 3.14, 9.81, 37, 100]
-const countries = ['Finland', 'Estonia', 'Sweden', 'Denmark', 'Norway']
+Exercises  <br />
+Exercises: Level 1 <br />
+const constants = [2.72, 3.14, 9.81, 37, 100] <br />
+const countries = ['Finland', 'Estonia', 'Sweden', 'Denmark', 'Norway'] <br />
 const rectangle = {
   width: 20,
   height: 10,
@@ -51,20 +51,22 @@ const users = [
   skills:['HTM', 'CSS', 'JS'],
   age:20
 }
-]
-Destructure and assign the elements of constants array to e, pi, gravity, humanBodyTemp, waterBoilingTemp.
-Destructure and assign the elements of countries array to fin, est, sw, den, nor
-Destructure the rectangle object by its properties or keys.
-Exercises: Level 2
-Iterate through the users array and get all the keys of the object using destructuring
-Find the persons who have less than two skills
-Exercises: Level 3
-Destructure the countries object print name, capital, population and languages of all countries
-A junior developer structure student name, skills and score in array of arrays which may not easy to read. Destructure the following array name to name, skills array to skills, scores array to scores, JavaScript score to jsScore and React score to reactScore variable in one line.
+] <br />
+Destructure and assign the elements of constants array to e, pi, gravity, humanBodyTemp, waterBoilingTemp. <br />
+Destructure and assign the elements of countries array to fin, est, sw, den, nor <br /> 
+Destructure the rectangle object by its properties or keys. <br /> <br />
+Exercises: Level 2 <br />
+Iterate through the users array and get all the keys of the object using destructuring <br />
+Find the persons who have less than two skills <br />
+Exercises: Level 3 <br />
+Destructure the countries object print name, capital, population and languages of all countries <br />
+A junior developer structure student name, skills and score in array of arrays which may not easy to read. Destructure the following array name to name, <br />  skills array to skills, scores array to scores, JavaScript score to jsScore and React score to reactScore variable in one line. <br />
+
   const student = ['David', ['HTM', 'CSS', 'JS', 'React'], [98, 85, 90, 95]]
-  console.log(name, skills, jsScore, reactScore)
-David (4) ["HTM", "CSS", "JS", "React"] 90 95
-Write a function called convertArrayToObject which can convert the array to a structure object.
+  console.log(name, skills, jsScore, reactScore) 
+  
+David (4) ["HTM", "CSS", "JS", "React"] 90 95 <br /> 
+Write a function called convertArrayToObject which can convert the array to a structure object. <br />
     const students = [
         ['David', ['HTM', 'CSS', 'JS', 'React'], [98, 85, 90, 95]],
         ['John', ['HTM', 'CSS', 'JS', 'React'], [85, 80, 85, 80]]
@@ -82,12 +84,12 @@ Write a function called convertArrayToObject which can convert the array to a st
         skills: ['HTM','CSS','JS','React'],
         scores: [85, 80,85,80]
       }
-    ]
-Copy the student object to newStudent without mutating the original object. In the new object add the following ?
-Add Bootstrap with level 8 to the front end skill sets
-Add Express with level 9 to the back end skill sets
-Add SQL with level 8 to the data base skill sets
-Add SQL without level to the data science skill sets
+    ] <br />
+Copy the student object to newStudent without mutating the original object. In the new object add the following ? <br />
+Add Bootstrap with level 8 to the front end skill sets <br />
+Add Express with level 9 to the back end skill sets <br />
+Add SQL with level 8 to the data base skill sets <br />
+Add SQL without level to the data science skill sets <br />
     const student = {
       name: 'David',
       age: 25,
@@ -107,8 +109,8 @@ Add SQL without level to the data science skill sets
         ],
         dataScience:['Python', 'R', 'D3.js']
       }
-    }
-The copied object output should look like this:
+    } <br />
+The copied object output should look like this: <br />
 
     {
     name: 'David',
@@ -132,5 +134,5 @@ The copied object output should look like this:
       ],
       dataScience: ['Python','R','D3.js','SQL']
     }
-  }
+  } <br />
 
